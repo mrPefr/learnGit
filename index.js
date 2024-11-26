@@ -12,3 +12,7 @@ app.get("/", (req, res)=>{
 app.get("/about", (req, res)=>{
     res.send("ABOUT");
 })
+
+app.get("/important", (req, res)=>{
+    res.send("Important stuff....");
+})
